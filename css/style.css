@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bannerLeft {
+    display: flex;
+    flex-direction: row;
+}
+
+.logoImage {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: #5094F3;
+}
