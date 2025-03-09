@@ -11,9 +11,12 @@ header {
 .bannerLeft {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: .3rem;
 }
 
 .logoImage {
+    margin: 0px;
     text-align: center;
     width: 2rem;
     height: 2rem;
@@ -25,4 +28,31 @@ header {
 
 .logoText {
     font-size: 2rem;
+    margin: 0px;
+}
+
+.bannerRight nav img {
+    width: 3rem;
+}
+
+.landingSection {
+    background-color: #110f0f;
+}
+
+.landingItem h1 {
+    color: white;
+    font-size: 3rem;
+}
+.landingItem p {
+    color: #cacaca;
+    font-size: 2rem;
+}
+
+.landingItem .button a img {
+    height: 3rem;
+}
+
+.landingImage {
+    width: 12rem;
+    border-radius: 10px;
 }
